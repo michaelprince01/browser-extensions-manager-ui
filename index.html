@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>Browser extensions manager UI</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        <div class="toggle-img">
+          <img
+            src="./assets/images/icon-moon.svg"
+            alt="moon-icon"
+            class="toggle-theme"
+          />
+        </div>
+      </header>
+      <div class="filters">
+        <h3>Extensions List</h3>
+        <div class="extension-filter-btn">
+          <button class="filter-all-btn active-filter">All</button>
+          <button class="filter-active-btn">Active</button>
+          <button class="filter-inactive-btn">Inactive</button>
+        </div>
+      </div>
+
+      <section class="extension-list">
+        <!-- populate dynamically -->
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
